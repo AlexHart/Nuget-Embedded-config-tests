@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Alejandro Hartlohner</authors>
+    <owners>Alejandro Hartlohner</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test of including configuration into a nuget package</description>
+    <releaseNotes>Initial tests</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Nuget, config, tests</tags>
+  </metadata>
+</package>
