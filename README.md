@@ -10,4 +10,4 @@ In the **NugetProject** / Properties / Eesources is where the configuration file
 There is one project that consumes the dll (**DllConsumer**) and another one that consumes the nuget (**NugetConsumer**).
 
 ## Remarks
-**NugetConsumer** only works if you add the nuget to a repository of your own, I used my local machine and didn't upload the nupkg to nuget.org because this is just a POC.
+> **NugetConsumer** only works if you add the nuget to a repository of your own, I used my local machine and didn't upload the nupkg to nuget.org because this is just a POC.
