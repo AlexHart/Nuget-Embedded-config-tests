@@ -1,4 +1,5 @@
 ﻿using NugetProject.Properties;
+using DllConsumedByNuget;
 
 namespace NugetProject
 {
@@ -33,6 +34,15 @@ namespace NugetProject
             }
             return config;
         }
-        
+
+        /// <summary>
+        /// Read the config that is embedded inside a child dll.
+        /// </summary>
+        /// <param name="environment"></param>
+        /// <returns></returns>
+        public string ReadConfigFromChildDll(AppEnvironment environment) =>
+            ConfigFromChildDll.GetConfig();
+
+
     }
 }

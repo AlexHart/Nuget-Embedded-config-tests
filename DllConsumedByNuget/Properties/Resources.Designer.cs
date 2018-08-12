@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NugetProject.Properties {
+namespace DllConsumedByNuget.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace NugetProject.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NugetProject.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DllConsumedByNuget.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,25 +61,12 @@ namespace NugetProject.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a {
-        ///	&quot;value1&quot;: &quot;Hello&quot;,
-        ///	&quot;value2&quot;: &quot;World&quot;
-        ///}.
+        ///   Busca una cadena traducida similar a # This is a file with some settings
+        ///# It&apos;s inside a dll called by a nuget project..
         /// </summary>
-        internal static string azureconfig {
+        internal static string settings {
             get {
-                return ResourceManager.GetString("azureconfig", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a {
-        ///	&quot;value1&quot;: &quot;This is the Production configuration&quot;
-        ///}.
-        /// </summary>
-        internal static string azureconfig_PRO {
-            get {
-                return ResourceManager.GetString("azureconfig_PRO", resourceCulture);
+                return ResourceManager.GetString("settings", resourceCulture);
             }
         }
     }

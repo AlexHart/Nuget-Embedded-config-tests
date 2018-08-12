@@ -1,0 +1,2 @@
+# This is a file with some settings
+# It's inside a dll called by a nuget project.
