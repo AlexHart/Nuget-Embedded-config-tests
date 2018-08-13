@@ -5,9 +5,9 @@ The files can also be stored as binaries or whatever the user chooses, but then 
 
 Of course **you should never store connection strings, passwords or anything sensitive unencrypted.**
 
-In the **NugetProject** / Properties / Eesources is where the configuration files are stored.
+In the **NugetProject** / Properties / Resources is where the configuration files are stored.
 
-There is one project that consumes the dll (**DllConsumer**) and another one that consumes the nuget (**NugetConsumer**).
+There is one project that consumes the dll (**DllConsumer**) and another one that consumes the nuget (**NugetConsumer**). Also the Nuget is calling to another dll with embedded resources inside.
 
 ## Remarks
 > **NugetConsumer** only works if you add the nuget to a repository of your own, I used my local machine and didn't upload the nupkg to nuget.org because this is just a POC.
